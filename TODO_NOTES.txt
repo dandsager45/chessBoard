@@ -1,0 +1,34 @@
+TODO
+
+1)Create Bitboard
+	Determine Languague being used -> python for Neural Net libraries? C/C++ for speed? Hybrid?
+
+	Create schema on how to represent data
+	
+	Temp: Create a visualization function -print
+	Final: integrate with a COTS/FOSS chess GUI (or go 1 step further and create my own visualization GUI for fun)
+	
+	
+	Create Implementation of Chess pieces, legal moves
+	
+	Don't forget about "special case states - En Passant / Castling
+	
+	Create list of potential "Canditate Moves" 
+		Don't forget to remove moves which are not legal (discovered check)
+		
+	Unit Test Framework?
+	
+	Add in a "play against the engine" framework
+	
+	
+2)Simple Evaluation Function
+
+	Start extremely simple, minimax w/ just piece point evaluation
+	Continue to add in additional features, alpha beta pruning, negimax, etc.
+	
+	Try out different engines vs each other and keep a scoreboard
+	
+	
+3) Machine Learning
+
+	Will do more research here once I have gotten a basic eval function completed
